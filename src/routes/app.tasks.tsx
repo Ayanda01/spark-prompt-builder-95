@@ -8,7 +8,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { PageHeader } from "@/components/PageHeader";
 import { AIOutput } from "@/components/AIOutput";
 import { AIDisclaimer } from "@/components/AIDisclaimer";
-import { runAI } from "@/server/ai.functions";
+import { runAI } from "@/lib/ai.functions";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/app/tasks")({
